@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data - don't commit raw test PDFs or images
+data/raw/
+data/images/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Model files
+*.pkl
+*.pt
+*.h5
+*.tflite
+*.onnx
+
+# Tableau
+*.twbx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exceptions - allow specific committed artifacts
+!images/*.png
+!images/*.jpg
+!docs/*.pdf
