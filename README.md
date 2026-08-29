@@ -54,8 +54,8 @@ The project also showcases **best practices for IP-compliant data science**: shi
 
 ```bash
 # Clone the repository
-git clone https://github.com/aekamban/dsat-difficulty-classifier.git
-cd dsat-difficulty-classifier
+git clone https://github.com/aekamban/dsat-difficulty-classification.git
+cd dsat-difficulty-classification
 
 # Install dependencies
 pip install -r requirements.txt
@@ -78,7 +78,7 @@ To reproduce the complete OCR workflow:
 ## Project Structure
 
 ```
-dsat-difficulty-classifier/
+dsat-difficulty-classification/
 ├── notebooks/
 │   └── dsat_difficulty_pipeline.ipynb  # Main analysis notebook
 ├── data/
